@@ -19,25 +19,19 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Web1**.
 
 ## ⚙️ Cara Menjalankan Project
 
-1. Clone repository ini
-
+1. Masuk ke folder project
+dsini nama folder saya
    ```bash
-   git clone https://github.com/username/nodejs-crud-restapi.git
+   cd tugas_pemweb1
    ```
 
-2. Masuk ke folder project
-
-   ```bash
-   cd nodejs-crud-restapi
-   ```
-
-3. Install dependency
+2. Install dependency
 
    ```bash
    npm install
    ```
 
-4. Buat file `.env` lalu isi konfigurasi database
+3. Buat file `.env` lalu isi konfigurasi database
 
    ```env
    DB_HOST=localhost
@@ -46,7 +40,7 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Web1**.
    DB_NAME=tugaspemweb1
    ```
 
-5. Jalankan server
+4. Jalankan server
 
    ```bash
    npm run dev
@@ -58,7 +52,7 @@ Repository ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Web1**.
    node server.js
    ```
 
-6. Server akan berjalan di:
+5. Server akan berjalan di:
 
    ```
    http://localhost:3000
